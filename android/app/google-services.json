@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1058774054346",
+    "project_id": "precioapp-3d71d",
+    "storage_bucket": "precioapp-3d71d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058774054346:android:8aa882f1cb4723390f0b33",
+        "android_client_info": {
+          "package_name": "com.example.flutter_uix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058774054346-cqgf0trtu4skerde2tat7l1geojjiar7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_uix",
+            "certificate_hash": "9783bc9eb5cca310ba9e69eb396b96b8f8e2b309"
+          }
+        },
+        {
+          "client_id": "1058774054346-o8pdsebbg6p4rdm29shttiotub74ufgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7FqDfgoa91frH5YRv1p7ZzMa_5YuYh6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058774054346-o8pdsebbg6p4rdm29shttiotub74ufgp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1058774054346-omhofgn8adprnqrgak75ct3eonko8t6m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterUix"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
