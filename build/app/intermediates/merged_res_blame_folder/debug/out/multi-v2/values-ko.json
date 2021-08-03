@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\code11\\projects\\UIUX-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "C:\\Users\\code11\\projects\\supper\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\code11\\.gradle\\caches\\transforms-2\\files-2.1\\8656f464774072763b6cf2c11f6aeb28\\jetified-play-services-basement-17.1.0\\res\\values-ko\\values.xml",

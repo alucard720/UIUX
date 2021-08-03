@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:precio_app/pages/login/login_pages.dart';
+import 'package:precio_app/pages/widgets/PopularFoodWidget.dart';
 import 'package:precio_app/pages/widgets/SearchWidget.dart';
 import 'package:precio_app/pages/widgets/TopMenus.dart';
 
@@ -46,6 +47,7 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             SearchWidget(),
             TopMenu(),
+            PopularFood(),
           ],
         ),
       ),
