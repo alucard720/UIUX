@@ -88,6 +88,8 @@ class PopularFoodTiles extends StatelessWidget {
                             ),
                           ),
                         ),
+                        Align(alignment: Alignment.centerLeft,
+                        child: Center(child: Image.asset('assets/pages/login/' + imageUrl + ".png"),),)
                       ],
                     )
                   ],
