@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:precio_app/pages/animation/ScaleRoute.dart';
 import 'package:precio_app/pages/login/login_pages.dart';
+import 'package:precio_app/pages/widgets/BestFoodWidget.dart';
+import 'package:precio_app/pages/widgets/BottomNavBar.dart';
 import 'package:precio_app/pages/widgets/PopularFoodWidget.dart';
 import 'package:precio_app/pages/widgets/SearchWidget.dart';
 import 'package:precio_app/pages/widgets/TopMenus.dart';
@@ -32,7 +35,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => LoginPage()),
+                ScaleRoute(page: LoginPage()),
               );
             },
             icon: Icon(
@@ -48,10 +51,11 @@ class _HomePageState extends State<HomePage> {
             SearchWidget(),
             TopMenu(),
             PopularFood(),
+            BestFoodWidget(),
           ],
         ),
       ),
-      // bottomNavigationBar: BottomNavBarWidget(),
+      bottomNavigationBar: BottomNavBarWidget(),
     );
   }
 }

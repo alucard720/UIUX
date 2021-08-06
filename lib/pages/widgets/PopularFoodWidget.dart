@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:precio_app/pages/animation/ScaleRoute.dart';
 import 'package:precio_app/pages/login/login_pages.dart';
 
 class PopularFood extends StatefulWidget {
@@ -46,8 +47,7 @@ class PopularFoodTiles extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => LoginPage()));
+        Navigator.push(context, ScaleRoute(page: LoginPage()));
       },
       child: Column(
         children: <Widget>[
