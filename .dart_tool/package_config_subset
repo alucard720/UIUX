@@ -58,6 +58,10 @@ firebase_core_web
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.1.0/
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.1.0/lib/
+flutter_plugin_android_lifecycle
+2.12
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.2/
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.2/lib/
 flutter_svg
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.22.0/
@@ -76,8 +80,8 @@ file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.0.1/lib/
 google_sign_in_web
 2.12
-file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+1/
-file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+1/lib/
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+2/
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+2/lib/
 http_parser
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/
@@ -90,6 +94,10 @@ js
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/lib/
+local_auth
+2.12
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/local_auth-1.1.6/
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/local_auth-1.1.6/lib/
 matcher
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10/
@@ -114,6 +122,10 @@ petitparser
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0/
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0/lib/
+platform
+2.12
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.2/
+file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.2/lib/
 plugin_platform_interface
 2.12
 file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1/

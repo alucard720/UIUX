@@ -92,6 +92,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.22.0",
       "packageUri": "lib/",
@@ -129,7 +135,7 @@
     },
     {
       "name": "google_sign_in_web",
-      "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+1",
+      "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -148,6 +154,12 @@
     {
       "name": "js",
       "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "local_auth",
+      "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/local_auth-1.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -184,6 +196,12 @@
     {
       "name": "petitparser",
       "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/macuser/projects/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -266,7 +284,7 @@
       "languageVersion": "2.3"
     }
   ],
-  "generated": "2021-08-20T05:02:00.960265Z",
+  "generated": "2021-08-23T01:38:15.388841Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

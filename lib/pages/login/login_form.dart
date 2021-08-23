@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:local_auth/local_auth.dart';
 import 'package:precio_app/pages/home/home_page.dart';
 
 import '../widgets/circle_button.dart';
@@ -9,6 +10,7 @@ import '../widgets/round_button.dart';
 
 class LoginForm extends StatelessWidget {
   final VoidCallback onGoToRegister, onGoToForgotPassword;
+  static final LocalAuthentication localAuth = LocalAuthentication();
 
   const LoginForm(
       {Key key,
@@ -70,6 +72,33 @@ class LoginForm extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => HomePage()),
                   );
                 },
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              IconButton(
+                onPressed: () async {
+                  bool weCanCheckBiometrics =
+                      await localAuth.canCheckBiometrics;
+                  if (weCanCheckBiometrics) {
+                    bool authenticated = await localAuth.authenticate(
+                        localizedReason:
+                            'Authenticate to see your bank statement');
+                    if (authenticated) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => HomePage(),
+                        ),
+                      );
+                    }
+                  }
+                },
+                icon: Icon(
+                  Icons.fingerprint,
+                ),
+                iconSize: 70,
+                color: Color(0xff448AFF),
               ),
               SizedBox(
                 height: 15,

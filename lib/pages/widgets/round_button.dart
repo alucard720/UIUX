@@ -6,9 +6,12 @@ class RoundButtonLog extends StatelessWidget {
   final String label;
   final VoidCallback onPressed;
   final Color backgroundColor;
-  const RoundButtonLog(
-      {Key key, @required this.label, this.onPressed, this.backgroundColor})
-      : assert(label != null),
+  const RoundButtonLog({
+    Key key,
+    @required this.label,
+    this.onPressed,
+    this.backgroundColor,
+  })  : assert(label != null),
         super(key: key);
   @override
   Widget build(BuildContext context) {
